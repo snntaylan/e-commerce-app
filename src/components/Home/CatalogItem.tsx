@@ -25,7 +25,6 @@ function CatalogItem({ item }: CatalogItemProps) {
       <Card sx={{ width: 320 }}>
         <div>
           <Typography level="title-lg" paddingRight={'15px'} >{item.title}</Typography>
-          <Typography level="body-sm">April 24 to May 02, 2021</Typography>
           <IconButton
             aria-label="bookmark Bahamas Islands"
             variant="plain"
